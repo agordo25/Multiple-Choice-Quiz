@@ -1,0 +1,163 @@
+***
+while True: 
+  
+  print("This is a quiz that tests yor knowledge on mathematics")
+
+  name=input("enter your name")
+  print("Hi there,",name, "Are you ready to start the quiz?")
+
+
+  print("I will ask you 6 questions and give you four choices")
+  print("Select which choice is the correct answer, A, B, C, or D")
+
+  #set the score of the quiz to 8
+  score = 0
+  score = int(score)
+
+  #question 1
+  print("Question 1: 35 is 90 percent of what number? /n")
+
+  print("A. 31.50")
+  print("B. 38.89")
+  print("C. 38.50")
+  print("D. 35.90")
+
+  Q1answer="B"#the right answer to question 1
+  Q1response=input("Your answer:")
+
+  if Q1response == "B" or Q1response == "b":
+    print("Correct answer", Q1response)
+    score= score+1
+  elif Q1response != "B" or Q1response != "b":
+    print("Sorry, incorrect")
+
+  print("Your current score is",score,"out of 6") 
+
+  #percentage score
+  final_score=(score*100)/6
+  print("This is a score of" + str(final_score),"percent")
+
+  #question 2
+  print("Question 2: A model airplane costs $22. It is on sale for 20 percent off. How much does the inck cartridge cost?")
+
+  print("A. 17.60")
+  print("B. 18.60")
+  print("C. 26.40")
+  print("D. 110.00")
+
+  Q2answer="A"#the right answer to question 2
+  Q2response=input("Your answer:")
+
+  if Q2response == "A" or Q2response == "a":
+    print("Correct answer", Q2response)
+    score= score+1
+  elif Q2response != "A" or Q2response != "a":
+    print("Sorry, incorrect")
+    
+  print("Your current score is",score,"out of 6") 
+
+  #percentage score
+  final_score=(score*100)/6
+  print("This is a score of" + str(final_score),"percent")
+  
+  #question 3
+  print("Question 3: Tuition at US colleges increases at a rate of 10 percent per year. Justin is a freshman and his first year tutition is $25,000. What will his tuition be for his junior year?")
+
+  print("A. $27,500")
+  print("B. $30,000")
+  print("C. $30,250")
+  print("D. $28,500")
+
+  Q3answer="C"#the right answer to question 3
+  Q3response=input("Your answer:")
+
+  if Q3response == "C" or Q3response == "c":
+    print("Correct answer", Q3response)
+    score= score+1
+  elif Q3response != "C" or Q3response != "c":
+    print("Sorry, incorrect")
+    
+  print("Your current score is",score,"out of 6") 
+
+  #percentage score
+  final_score=(score*100)/6
+  print("This is a score of" + str(final_score),"percent")
+
+  #question 4
+
+  print("Question 4: What is the sum of the prime numbers between 20 and 40?")
+
+  print("A. 89")
+  print("B. 120")
+  print("C. 104")
+  print("D. 99")
+
+
+  Q4answer="C"#the right answer to question 4
+  Q4response=input("Your answer:")
+
+  if Q4response == "B" or Q4response == "b":
+    print("Correct answer", Q4response)
+    score= score+1
+  elif Q4response != "B" or Q4response != "b":
+    print("Sorry, incorrect")
+    
+  print("Your current score is",score,"out of 6") 
+
+  #percentage score
+  final_score=(score*100)/6
+  print("This is a score of" + str(final_score),"percent")
+
+  #Question 5
+
+  print("Question 5: What is the greatest common factor of 7, 56, and 84")
+
+  print("A. 4")
+  print("B. 14")
+  print("C. 3")
+  print("D. 7")
+
+  Q5answer="D"#the right answer to question 5
+  Q5response=input("Your answer:")
+
+  if Q5response == "D" or Q5response == "d":
+    print("Correct answer", Q5response)
+    score= score+1
+  elif Q5response != "D" or Q5response != "d":
+    print("Sorry, incorrect")
+    
+  print("Your current score is",score,"out of 6") 
+
+  #percentage score
+  final_score=(score*100)/6
+  print("This is a score of" + str(final_score),"percent")
+
+  #Question 6 
+
+  print("Question 6: Last year the population of Massapequa was 1,024 people. This year the population is 924 people. By what percent did the population change")
+
+  print("A. 9.8 percent")
+  print("B. 9.5 percent")
+  print("C. -9.8 percent")
+  print ("D -9.5 percent")
+
+  Q6answer="C"#the right answer to question 5
+  Q6response=input("Your answer:")
+
+  if Q6response == "C" or Q6response == "c":
+    print("Correct answer", Q6response)
+    score= score+1
+  elif Q6response != "C" or Q6response != "c":
+    print("Sorry, incorrect")
+    
+  print("Your current score is",score,"out of 6") 
+
+  #percentage score
+  final_score=(score*100)/6
+  print("This is a score of" + str(final_score),"percent")
+  User== Name
+  if User==True:
+    print("retake quiz")
+  else:
+    print("quiz is over")
+    break
