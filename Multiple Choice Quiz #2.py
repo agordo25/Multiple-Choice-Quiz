@@ -154,7 +154,7 @@ while True:
   #percentage score
   final_score=(score*100)/6
   print("This is a score of" + str(final_score),"percent")
-  User== ("Do you want to retake the quiz? y/n?")
+  User= ("Do you want to retake the quiz? y/n?")
   if User==True:
     print("retake quiz")
   else:
