@@ -1,4 +1,3 @@
-***
 while True: 
   
   print("This is a quiz that tests yor knowledge on mathematics")
