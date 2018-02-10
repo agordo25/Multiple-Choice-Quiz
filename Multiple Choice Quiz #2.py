@@ -1,6 +1,6 @@
 while True: 
   
-  print("This is a quiz that tests yor knowledge on mathematics")
+  print("This is a quiz that tests your knowledge on mathematics")
 
   name=input("enter your name")
   print("Hi there,",name, "Are you ready to start the quiz?")
